@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <comment>Привязываем персонажа к базе</comment>
+        <event-block sid="677794734266421">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="547570314412835" type="System" />
+            </conditions>
+            <actions>
+                <action behavior="Pin" id="0" name="Pin to object" sid="117641807701690" type="stickman">
+                    <param id="0" name="Pin to">base</param>
+                    <param id="1" name="Mode">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="536794829810637">
+            <conditions>
+                <condition id="2" name="Key is down" sid="346128568203476" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="887865944771429" type="base">
+                    <param id="0" name="Control">1</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="710472109144979" type="stickman">
+                    <param id="0" name="State">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="541135553683934">
+            <conditions>
+                <condition id="2" name="Key is down" sid="357953444941422" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="492243608980350" type="base">
+                    <param id="0" name="Control">0</param>
+                </action>
+                <action id="7" name="Set mirrored" sid="549059529383295" type="stickman">
+                    <param id="0" name="State">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="702301925860543">
+            <conditions>
+                <condition id="2" name="Key is down" sid="230869957344221" type="Keyboard">
+                    <param id="0" name="Key">38</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="Platform" id="7" name="Simulate control" sid="608295751344300" type="base">
+                    <param id="0" name="Control">2</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="959900761653911">
+            <conditions>
+                <condition behavior="Platform" id="2" name="Is on floor" sid="773365161078379" type="base" />
+            </conditions>
+            <actions />
+            <sub-events>
+                <event-block sid="886633225153208">
+                    <conditions>
+                        <condition behavior="Platform" id="0" name="Is moving" sid="268353882022281" type="base" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="492273257080750" type="stickman">
+                            <param id="0" name="Animation">&quot;walk&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="226968298178571">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="216574422900804" type="base" />
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="726513007969136" type="stickman">
+                            <param id="0" name="Animation">&quot;stand&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+            </sub-events>
+        </event-block>
+        <event-block sid="419194820026968">
+            <conditions>
+                <condition behavior="Platform" id="3" name="Is jumping" sid="556943869141422" type="base" />
+            </conditions>
+            <actions>
+                <action id="4" name="Set animation" sid="684591435545298" type="stickman">
+                    <param id="0" name="Animation">&quot;jump&quot;</param>
+                    <param id="1" name="From">1</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>

@@ -117,6 +117,50 @@
                     <frame duration="1" hotspotX="0.489583" hotspotY="0.969388" original-source="D:\Construct-paperwar\persons\ani-general\jump\jump_004.png" />
                     <frame duration="1" hotspotX="0.416667" hotspotY="-0.5" original-source="D:\Construct-paperwar\persons\ani-general\jump\jump_005.png" />
                 </animation>
+                <animation framecount="9" loop="1" name="strike39" pingpong="0" repeatcount="1" repeatto="0" sid="261700426674241" speed="10">
+                    <frame duration="1" hotspotX="0.338843" hotspotY="0.984375" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_000.png" />
+                    <frame duration="1" hotspotX="0.330579" hotspotY="0.984375" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_001.png" />
+                    <frame duration="1" hotspotX="0.330579" hotspotY="0.989583" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_002.png" />
+                    <frame duration="1" hotspotX="0.330579" hotspotY="1" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_003.png" />
+                    <frame duration="1" hotspotX="0.322314" hotspotY="1" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_004.png" />
+                    <frame duration="1" hotspotX="0.330579" hotspotY="0.989583" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_005.png" />
+                    <frame duration="1" hotspotX="0.322314" hotspotY="1" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_006.png" />
+                    <frame duration="1" hotspotX="0.305785" hotspotY="1.00521" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_007.png" />
+                    <frame duration="1" hotspotX="0.31405" hotspotY="1.01042" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_008.png" />
+                </animation>
+                <animation framecount="9" loop="1" name="strike48" pingpong="0" repeatcount="1" repeatto="0" sid="745195194980951" speed="10">
+                    <frame duration="1" hotspotX="0.411215" hotspotY="0.98" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_000.png" />
+                    <frame duration="1" hotspotX="0.35514" hotspotY="0.975" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_001.png" />
+                    <frame duration="1" hotspotX="0.411215" hotspotY="0.97" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_002.png" />
+                    <frame duration="1" hotspotX="0.35514" hotspotY="0.955" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_003.png" />
+                    <frame duration="1" hotspotX="0.411215" hotspotY="0.965" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_004.png" />
+                    <frame duration="1" hotspotX="0.411215" hotspotY="0.97" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_005.png" />
+                    <frame duration="1" hotspotX="0.28972" hotspotY="0.975" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_006.png" />
+                    <frame duration="1" hotspotX="0.336449" hotspotY="0.965" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_007.png" />
+                    <frame duration="1" hotspotX="0.308411" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_008.png" />
+                </animation>
+                <animation framecount="9" loop="0" name="strike27" pingpong="0" repeatcount="1" repeatto="0" sid="333276139926357" speed="10">
+                    <frame duration="1" hotspotX="0.510204" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_000.png" />
+                    <frame duration="1" hotspotX="0.52381" hotspotY="0.98" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_001.png" />
+                    <frame duration="1" hotspotX="0.503401" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_002.png" />
+                    <frame duration="1" hotspotX="0.44898" hotspotY="0.965" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_003.png" />
+                    <frame duration="1" hotspotX="0.482993" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_004.png" />
+                    <frame duration="1" hotspotX="0.482993" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_005.png" />
+                    <frame duration="1" hotspotX="0.482993" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_006.png" />
+                    <frame duration="1" hotspotX="0.462585" hotspotY="0.975" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_007.png" />
+                    <frame duration="1" hotspotX="0.503401" hotspotY="0.985" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_008.png" />
+                </animation>
+                <animation framecount="9" loop="0" name="strike12" pingpong="0" repeatcount="1" repeatto="0" sid="452495132601937" speed="10">
+                    <frame duration="1" hotspotX="0.30137" hotspotY="0.965686" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_000.png" />
+                    <frame duration="1" hotspotX="0.260274" hotspotY="0.970588" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_001.png" />
+                    <frame duration="1" hotspotX="0.260274" hotspotY="0.980392" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_002.png" />
+                    <frame duration="1" hotspotX="0.260274" hotspotY="0.970588" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_003.png" />
+                    <frame duration="1" hotspotX="0.280822" hotspotY="0.946078" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_004.png" />
+                    <frame duration="1" hotspotX="0.287671" hotspotY="0.970588" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_005.png" />
+                    <frame duration="1" hotspotX="0.294521" hotspotY="0.97549" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_006.png" />
+                    <frame duration="1" hotspotX="0.287671" hotspotY="0.980392" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_007.png" />
+                    <frame duration="1" hotspotX="0.30137" hotspotY="0.985294" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_008.png" />
+                </animation>
             </animation-folder>
         </object-type>
         <object-type name="base" sid="300639755334292">

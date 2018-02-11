@@ -77,10 +77,61 @@
                 <event-block sid="226968298178571">
                     <conditions>
                         <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="216574422900804" type="base" />
+                        <condition id="2" inverted="1" name="Key is down" sid="768795480465434" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                        <condition id="2" inverted="1" name="Key is down" sid="129117500026333" type="Keyboard">
+                            <param id="0" name="Key">67</param>
+                        </condition>
+                        <condition id="2" inverted="1" name="Key is down" sid="768083901376142" type="Keyboard">
+                            <param id="0" name="Key">69</param>
+                        </condition>
                     </conditions>
                     <actions>
                         <action id="4" name="Set animation" sid="726513007969136" type="stickman">
                             <param id="0" name="Animation">&quot;stand&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="278954658026710">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="827317659425270" type="base" />
+                        <condition id="2" name="Key is down" sid="432661460803432" type="Keyboard">
+                            <param id="0" name="Key">68</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="216402982560254" type="stickman">
+                            <param id="0" name="Animation">&quot;strike39&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="496734604053004">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="513828602627662" type="base" />
+                        <condition id="2" name="Key is down" sid="134309548518020" type="Keyboard">
+                            <param id="0" name="Key">67</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="737461797475946" type="stickman">
+                            <param id="0" name="Animation">&quot;strike27&quot;</param>
+                            <param id="1" name="From">1</param>
+                        </action>
+                    </actions>
+                </event-block>
+                <event-block sid="966005822808833">
+                    <conditions>
+                        <condition behavior="Platform" id="0" inverted="1" name="Is moving" sid="735107857386046" type="base" />
+                        <condition id="2" name="Key is down" sid="416870993179054" type="Keyboard">
+                            <param id="0" name="Key">69</param>
+                        </condition>
+                    </conditions>
+                    <actions>
+                        <action id="4" name="Set animation" sid="560956203843569" type="stickman">
+                            <param id="0" name="Animation">&quot;strike12&quot;</param>
                             <param id="1" name="From">1</param>
                         </action>
                     </actions>

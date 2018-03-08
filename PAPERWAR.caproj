@@ -8,7 +8,7 @@
     <author-website>http://</author-website>
     <app-id>com.mycompany.myapp</app-id>
     <unique-id>2zyglovbxno65</unique-id>
-    <saved-with-version>25200</saved-with-version>
+    <saved-with-version>25500</saved-with-version>
     <used-plugins>
         <plugin author="Scirra" id="Keyboard" version="1">Keyboard</plugin>
         <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
@@ -117,7 +117,7 @@
                     <frame duration="1" hotspotX="0.489583" hotspotY="0.969388" original-source="D:\Construct-paperwar\persons\ani-general\jump\jump_004.png" />
                     <frame duration="1" hotspotX="0.416667" hotspotY="-0.5" original-source="D:\Construct-paperwar\persons\ani-general\jump\jump_005.png" />
                 </animation>
-                <animation framecount="9" loop="1" name="strike39" pingpong="0" repeatcount="1" repeatto="0" sid="261700426674241" speed="10">
+                <animation framecount="9" loop="1" name="strike39" pingpong="0" repeatcount="1" repeatto="0" sid="261700426674241" speed="20">
                     <frame duration="1" hotspotX="0.338843" hotspotY="0.984375" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_000.png" />
                     <frame duration="1" hotspotX="0.330579" hotspotY="0.984375" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_001.png" />
                     <frame duration="1" hotspotX="0.330579" hotspotY="0.989583" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_002.png" />
@@ -128,7 +128,7 @@
                     <frame duration="1" hotspotX="0.305785" hotspotY="1.00521" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_007.png" />
                     <frame duration="1" hotspotX="0.31405" hotspotY="1.01042" original-source="D:\Construct-paperwar\persons\ani-general\strike1\strike9-3_008.png" />
                 </animation>
-                <animation framecount="9" loop="1" name="strike48" pingpong="0" repeatcount="1" repeatto="0" sid="745195194980951" speed="10">
+                <animation framecount="9" loop="1" name="strike48" pingpong="0" repeatcount="1" repeatto="0" sid="745195194980951" speed="20">
                     <frame duration="1" hotspotX="0.411215" hotspotY="0.98" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_000.png" />
                     <frame duration="1" hotspotX="0.35514" hotspotY="0.975" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_001.png" />
                     <frame duration="1" hotspotX="0.411215" hotspotY="0.97" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_002.png" />
@@ -139,7 +139,7 @@
                     <frame duration="1" hotspotX="0.336449" hotspotY="0.965" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_007.png" />
                     <frame duration="1" hotspotX="0.308411" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike2\strike4-8_008.png" />
                 </animation>
-                <animation framecount="9" loop="0" name="strike27" pingpong="0" repeatcount="1" repeatto="0" sid="333276139926357" speed="10">
+                <animation framecount="9" loop="0" name="strike27" pingpong="0" repeatcount="1" repeatto="0" sid="333276139926357" speed="20">
                     <frame duration="1" hotspotX="0.510204" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_000.png" />
                     <frame duration="1" hotspotX="0.52381" hotspotY="0.98" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_001.png" />
                     <frame duration="1" hotspotX="0.503401" hotspotY="0.96" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_002.png" />
@@ -150,7 +150,7 @@
                     <frame duration="1" hotspotX="0.462585" hotspotY="0.975" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_007.png" />
                     <frame duration="1" hotspotX="0.503401" hotspotY="0.985" original-source="D:\Construct-paperwar\persons\ani-general\strike3\strike27_008.png" />
                 </animation>
-                <animation framecount="9" loop="0" name="strike12" pingpong="0" repeatcount="1" repeatto="0" sid="452495132601937" speed="10">
+                <animation framecount="9" loop="0" name="strike12" pingpong="0" repeatcount="1" repeatto="0" sid="452495132601937" speed="20">
                     <frame duration="1" hotspotX="0.30137" hotspotY="0.965686" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_000.png" />
                     <frame duration="1" hotspotX="0.260274" hotspotY="0.970588" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_001.png" />
                     <frame duration="1" hotspotX="0.260274" hotspotY="0.980392" original-source="D:\Construct-paperwar\persons\ani-general\strike4\strike12_002.png" />
@@ -181,6 +181,19 @@
         </object-type>
         <object-type name="Keyboard" sid="840128159813164">
             <plugin id="Keyboard" />
+        </object-type>
+        <object-type name="Sprite" sid="122513009136064">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="495821850290010">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317455941427707" speed="5">
+                    <frame duration="1" hotspotX="0.54" hotspotY="0.49" />
+                </animation>
+            </animation-folder>
         </object-type>
     </object-folder>
     <families />
